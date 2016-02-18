@@ -1,0 +1,7 @@
+language: java
+
+before_install:
+    - chmod 755 gradlew
+
+script:
+    ./gradlew check build

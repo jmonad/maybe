@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin: 'checkstyle'
+
+dependencies {
+  testCompile 'junit:junit:4.12'
+}
+
+checkstyle {
+    configFile file('../config/checkstyle/checkstyle.xml')
+}
