@@ -36,7 +36,7 @@ repositories {
 }
 
 dependencies {
-  compile 'com.github.jmonad:maybe:0.1'
+  compile 'com.github.jmonad:maybe:0.2'
 }
 ```
 
