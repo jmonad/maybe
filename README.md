@@ -7,7 +7,7 @@ How to use?
 
 /**
  * This method will try to configure the Toolbar
- *
+ */
 private void configToolbar() {
 
     setSupportActionBar(toolbar);
