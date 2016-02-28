@@ -1,5 +1,27 @@
 # Maybe [![Build Status](https://travis-ci.org/jmonad/maybe.svg?branch=master)](https://travis-ci.org/jmonad/maybe)
 
+How to use?
+-----------
+
+```java
+
+/**
+ * This method will try to configure the Toolbar
+ *
+private void configToolbar() {
+
+    setSupportActionBar(toolbar);
+
+    maybe(getSupportActionBar()).bind(actionBar -> {
+      actionBar.setHomeButtonEnabled(true);
+      actionBar.setDisplayShowHomeEnabled(true);
+      return actionBar;
+    });
+
+  }
+
+```
+
 Import dependency
 --------------------------------
 
