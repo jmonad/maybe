@@ -9,4 +9,5 @@ public class MaybeTest {
   @Test public void testSample() {
       assert maybe("sample").fromMaybe("").equals("sample");
   }
+
 }
