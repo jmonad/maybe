@@ -5,7 +5,7 @@ For Android implementation, go to [`android`][20] branch.
 Import dependency
 --------------------------------
 
-Into your build.gradle:
+Into your build.gradle:s
 
 ```groovy
 
@@ -16,7 +16,7 @@ repositories {
 }
 
 dependencies {
-  compile 'com.github.jmonad:maybe:0.1'
+  compile 'com.github.jmonad:maybe:0.2'
 }
 ```
 
