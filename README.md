@@ -1,5 +1,7 @@
 # Maybe [![Build Status](https://travis-ci.org/jmonad/maybe.svg?branch=master)](https://travis-ci.org/jmonad/maybe)
 
+For Android implementation, go to [`android`][20] branch.
+
 Import dependency
 --------------------------------
 
@@ -55,3 +57,4 @@ SOFTWARE.
 [10]: https://github.com/haskellcamargo
 [11]: https://github.com/ppamorim
 [12]: https://github.com/vitorprado
+[20]: https://github.com/jmonad/maybe/tree/android
