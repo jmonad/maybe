@@ -4,7 +4,7 @@ apply plugin: 'me.tatarka.retrolambda'
 
 android {
   compileSdkVersion 23
-  buildToolsVersion "23.0.2"
+  buildToolsVersion "23.0.3"
 
   defaultConfig {
     applicationId "com.github.maybe.android"
@@ -59,10 +59,12 @@ repositories {
   }
 }
 
+String support_version = '23.3.0'
+
 dependencies {
   compile 'com.github.jmonad:maybe:0.2'
-  compile 'com.android.support:appcompat-v7:23.1.1'
-  compile 'com.android.support:recyclerview-v7:23.1.1'
+  compile "com.android.support:appcompat-v7:$support_version"
+  compile "com.android.support:recyclerview-v7:$support_version"
   compile 'com.jakewharton:butterknife:7.0.1'
   compile 'com.google.dagger:dagger:2.0.1'
   apt 'com.google.dagger:dagger-compiler:2.0.1'
